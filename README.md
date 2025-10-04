@@ -41,7 +41,7 @@ The library utilizes a 2D canvas defined by the terminal's size.
 
   * **Size:** The canvas dimensions are determined by the terminal's current size at initialization.
       * `tdraw_term_y`: The height of the canvas (in terminal rows).
-      * `tdraw_term_x`: The width of the canvas (in drawing pixels). Note that the internal drawing width (`tdraw_term_x`) is **half** the actual terminal column width, as each "pixel" is rendered using the `TDRAW_BLOCK_STR` (`"   "`), which is 3 spaces wide to provide a roughly square aspect ratio for terminal cells.
+      * `tdraw_term_x`: The width of the canvas (in drawing pixels). Note that the internal drawing width (`tdraw_term_x`) is **half** the actual terminal column width, as each "pixel" is rendered using the `TDRAW_BLOCK_STR` (`"  "`), which is 2 spaces wide to provide a roughly square aspect ratio for terminal cells.
   * **Coordinates:** The coordinate system is **origin-at-bottom-left**.
       * $x$-coordinates increase to the **right**.
       * $y$-coordinates increase **upwards** (from $0$ at the bottom row to `tdraw_term_y - 1` at the top row).
