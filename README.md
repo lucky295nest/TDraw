@@ -1,5 +1,3 @@
-This document provides a guide for using the **tdraw** library, a single-header C library for terminal-based drawing using ANSI escape codes for 24-bit color.
-
 ## 🚀 Getting Started
 
 The `tdraw` library is designed for ease of use in a single-file setup.
