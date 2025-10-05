@@ -116,7 +116,7 @@ Creating animations involves a loop that repeatedly:
 3.  Renders the frame (`tdraw_draw_frame()`).
 4.  Pauses for a short duration (often using `usleep()` for microsecond delay) to control the framerate.
 
-**Example from example.c code (`homework_anim`):**
+**Example from example.c code (`squares_anim`):**
 
 ```c
 // ... inside an animation loop ...
